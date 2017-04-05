@@ -12,9 +12,7 @@
 * cd d8
 * cp ~/.ssh/id_rsa environment/puppet/modules/base-lamp/files/ssh/
 * vagrant plugin install vagrant-hostsupdater
-* vagrant up
-* vagrant reload
-* vagrant ssh
+* vagrant up && vagrant reload && vagrant ssh
 * source ./scripts/setup.sh
 * Visit in your browser: http://local.d8.com
-* Thats it!
+* Follow directions to set up distro (use root / no password for the db)
