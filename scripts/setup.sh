@@ -58,7 +58,7 @@ sudo a2enmod headers
 sudo service apache2 restart 
 
 
-cd ~/www/ && composer create-project burdamagazinorg/thunder-project docroot --stability dev --no-interaction && cd d8 && composer require drupal/devel:1.*
+cd ~/www/ && composer create-project burdamagazinorg/thunder-project d8 --stability dev --no-interaction && cd d8 && composer require drupal/devel:1.*
 
 
 #mv ~/www/local.d8.com  ~/www/docroot/sites/local.d8.com

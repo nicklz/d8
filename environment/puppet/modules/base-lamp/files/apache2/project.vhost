@@ -2,7 +2,7 @@
     ServerAdmin webmaster@localhost
     ServerName d8
     ServerAlias local.d8.com www.local.d8.com
-    DocumentRoot /home/vagrant/www/docroot/docroot
+    DocumentRoot /home/vagrant/www/d8/docroot
 
     SetEnv APP_ENV local
 
