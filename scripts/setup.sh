@@ -47,7 +47,7 @@ export PATH="$PATH:$HOME/vendor/bin"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 
-curl -sS https://platform.sh/cli/installer | php
+
 
 echo 'export PATH="$PATH:$HOME/vendor/bin:$HOME/.config/composer/vendor/bin:$HOME/.rvm/scripts"' >> ~/.bashrc
 

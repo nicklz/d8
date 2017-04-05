@@ -2,11 +2,11 @@
     ServerAdmin webmaster@localhost
     ServerName d8
     ServerAlias local.d8.com www.local.d8.com
-    DocumentRoot /home/vagrant/www/docroot
+    DocumentRoot /home/vagrant/www/docroot/docroot
 
     SetEnv APP_ENV local
 
-    <Directory /home/vagrant/www/docroot>
+    <Directory /home/vagrant/www/docroot/docroot>
             Options Indexes FollowSymLinks MultiViews
             EnableSendfile Off
             AllowOverride All
@@ -24,7 +24,7 @@
 </VirtualHost>
 
 <VirtualHost *:443>
-    DocumentRoot "/home/vagrant/www/docroot"
+    DocumentRoot "/home/vagrant/www/docroot/docroot"
     ServerName d8:443
     ServerAdmin webmaster@localhost
     EnableSendfile Off
@@ -41,7 +41,7 @@
         SSLOptions +StdEnvVars
     </FilesMatch>
 
-    <Directory "/home/vagrant/www/docroot">
+    <Directory "/home/vagrant/www/docroot/docroot">
         Options FollowSymLinks
         AllowOverride All
         Require all granted
