@@ -1,0 +1,18 @@
+name: 'Wheel Slider'
+description: 'Coda Wheel Slider'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - content_moderation
+  - field
+  - field_collection
+  - file
+  - image
+  - infinite_blocks
+  - metatag
+  - paragraphs
+  - system
+  - views
+libraries:
+  - wheel_slider/wheel_slider

@@ -14,7 +14,7 @@ docroot/phpmyadmin
 *id_rsa.pub
 drush.dbdumps
 
-
+docroot/d8
 docroot/docroot
 docroot/local*
 docroot/solr*

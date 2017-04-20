@@ -40,8 +40,7 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 
-#composer global config minimum-stability dev
-composer require drush/drush
+composer global require drush/drush:dev-master
 composer global require drupal/coder
 export PATH="$PATH:$HOME/vendor/bin"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
@@ -56,6 +55,8 @@ ln -s ~/.config/composer ~/.composer
 
 sudo a2enmod headers
 sudo service apache2 restart 
+
+composer global update
 
 
 cd ~/www/ && composer create-project burdamagazinorg/thunder-project d8 --stability dev --no-interaction && cd d8 && composer require drupal/devel:1.*

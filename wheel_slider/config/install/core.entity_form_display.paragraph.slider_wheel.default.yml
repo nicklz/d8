@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider_wheel.field_sw_image
+    - field.field.paragraph.slider_wheel.field_sw_slide
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.slider_wheel
+  module:
+    - content_moderation
+    - field_collection
+    - image
+id: paragraph.slider_wheel.default
+targetEntityType: paragraph
+bundle: slider_wheel
+mode: default
+content:
+  field_sw_image:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_sw_slide:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

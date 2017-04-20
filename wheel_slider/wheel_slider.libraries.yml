@@ -1,0 +1,7 @@
+wheel_slider:
+  version: 1.x
+  css:
+    theme:
+      css/wheel-slider.css: {}
+  js:
+    js/wheel-slider.js: {}

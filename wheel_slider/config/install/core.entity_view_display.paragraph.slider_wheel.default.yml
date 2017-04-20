@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slider_wheel.field_sw_image
+    - field.field.paragraph.slider_wheel.field_sw_slide
+    - paragraphs.paragraphs_type.slider_wheel
+  module:
+    - field_collection
+    - image
+id: paragraph.slider_wheel.default
+targetEntityType: paragraph
+bundle: slider_wheel
+mode: default
+content:
+  field_sw_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_sw_slide:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+hidden: {  }

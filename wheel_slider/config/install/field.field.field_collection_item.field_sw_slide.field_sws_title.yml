@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_sws_title
+    - field_collection.field_collection.field_sw_slide
+id: field_collection_item.field_sw_slide.field_sws_title
+field_name: field_sws_title
+entity_type: field_collection_item
+bundle: field_sw_slide
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,8 @@
+<?php
+
+
+function wheel_slider_page_attachments_alter(array &$page) {
+  // Attach the wheel_slider asset on every page.
+
+  $page['#attached']['library'][] = 'wheel_slider/wheel_slider';
+}

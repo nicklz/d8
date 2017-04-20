@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_sw_slide.field_sws_description
+    - field.field.field_collection_item.field_sw_slide.field_sws_title
+    - field_collection.field_collection.field_sw_slide
+id: field_collection_item.field_sw_slide.default
+targetEntityType: field_collection_item
+bundle: field_sw_slide
+mode: default
+content:
+  field_sws_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_sws_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
